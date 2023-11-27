@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>afff8fc6-c163-4ad8-8b50-abd5c646503c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>..\AppGravitationalDistort</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>Mobius_navi</Name>
+    <RootNamespace>Mobius_navi</RootNamespace>
+    <InterpreterId>Global|VisualStudio|Pythagorean</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="runserver.py" />
+    <Compile Include="Mobius_navi\__init__.py" />
+    <Compile Include="Mobius_navi\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mobius_navi\" />
+    <Folder Include="Mobius_navi\static\" />
+    <Folder Include="Mobius_navi\static\content\" />
+    <Folder Include="Mobius_navi\static\fonts\" />
+    <Folder Include="Mobius_navi\static\scripts\" />
+    <Folder Include="Mobius_navi\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
+    <Content Include="Mobius_navi\static\content\bootstrap.css" />
+    <Content Include="Mobius_navi\static\content\bootstrap.min.css" />
+    <Content Include="Mobius_navi\static\content\site.css" />
+    <Content Include="Mobius_navi\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Mobius_navi\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Mobius_navi\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Mobius_navi\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Mobius_navi\static\scripts\bootstrap.js" />
+    <Content Include="Mobius_navi\static\scripts\bootstrap.min.js" />
+    <Content Include="Mobius_navi\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Mobius_navi\static\scripts\jquery-1.10.2.js" />
+    <Content Include="Mobius_navi\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="Mobius_navi\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="Mobius_navi\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Mobius_navi\static\scripts\jquery.validate.js" />
+    <Content Include="Mobius_navi\static\scripts\jquery.validate.min.js" />
+    <Content Include="Mobius_navi\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Mobius_navi\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Mobius_navi\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="Mobius_navi\static\scripts\respond.js" />
+    <Content Include="Mobius_navi\static\scripts\respond.min.js" />
+    <Content Include="Mobius_navi\static\scripts\_references.js" />
+    <Content Include="Mobius_navi\templates\about.html" />
+    <Content Include="Mobius_navi\templates\contact.html" />
+    <Content Include="Mobius_navi\templates\index.html" />
+    <Content Include="Mobius_navi\templates\layout.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|VisualStudio|Pythagorean" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Name>Accessibility</Name>
+      <AssemblyName>Accessibility.dll</AssemblyName>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Accessibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Activities.Build, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>Microsoft.Activities.Build</Name>
+      <AssemblyName>Microsoft.Activities.Build.dll</AssemblyName>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.Activities.Build.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Build.Engine, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Name>Microsoft.Build.Engine</Name>
+      <AssemblyName>Microsoft.Build.Engine.dll</AssemblyName>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.Build.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Name>Microsoft.Build.Framework</Name>
+      <AssemblyName>Microsoft.Build.Framework.dll</AssemblyName>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.Build.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <Name>System.Windows.Forms</Name>
+      <AssemblyName>System.Windows.Forms.dll</AssemblyName>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>System.Windows.Forms.DataVisualization</Name>
+      <AssemblyName>System.Windows.Forms.DataVisualization.dll</AssemblyName>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>System.Windows.Forms.DataVisualization.Design</Name>
+      <AssemblyName>System.Windows.Forms.DataVisualization.Design.dll</AssemblyName>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.DataVisualization.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>UIAutomationClient</Name>
+      <AssemblyName>UIAutomationClient.dll</AssemblyName>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\UIAutomationClient.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>UIAutomationProvider</Name>
+      <AssemblyName>UIAutomationProvider.dll</AssemblyName>
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\UIAutomationProvider.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

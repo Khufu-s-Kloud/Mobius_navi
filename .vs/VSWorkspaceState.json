@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Mobius_navi",
+    "\\Mobius_navi\\templates",
+    "\\Rejuv",
+    "\\Rejuv\\Include",
+    "\\Rejuv\\Lib",
+    "\\Rejuv\\Lib\\site-packages",
+    "\\Rejuv\\Lib\\site-packages\\colorama",
+    "\\Rejuv\\Lib\\site-packages\\setuptools",
+    "\\Rejuv\\Lib\\site-packages\\setuptools\\extern",
+    "\\Rejuv\\Lib\\site-packages\\setuptools\\extern\\__pycache__"
+  ],
+  "SelectedNode": "\\Mobius_navi\\views.py",
+  "PreviewInSolutionExplorer": false
+}
